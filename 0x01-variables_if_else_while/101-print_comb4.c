@@ -17,7 +17,7 @@ int main(void)
 		{
 			for (unit = '2'; unit <= '9'; unit++)
 			{
-				if (!(thou >= tens && tens >= unit))
+				if (!(unit >> thou && unit >> tens))
 				{
 					putchar(thou);
 					putchar(tens);
