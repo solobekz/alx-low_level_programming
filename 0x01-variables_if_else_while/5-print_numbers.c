@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - print all sing digit number of base 10 from 0
- * return: Always 0 (Success)
+ * main - print 0123456789
+ * Return: Always 0 (Success)
  */
 
 int main(void)
