@@ -10,16 +10,19 @@ int main(void)
 	int tens;
 	int unit;
 
-	for (tens = '0';tens <= '9';tens++)
+	for (tens = '0'; tens <= '9'; tens++)
 	{
 		for (unit = '0'; unit <= '9'; unit++)
 		{
-			putchar(tens);
-			putchar(unit);
-			if (!(tens == '9' && unit == '9'))
+			if (!(tens >= unit))
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(tens);
+				putchar(unit);
+				if (!(tens == '9' && unit == '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
