@@ -14,10 +14,8 @@ int main(void)
 		putchar(n);
 		if (n != '9')
 		{
-			putchar(', ');
-		}
-		else
-			putchar('$');
+			putchar(',');
+			putchar(' ');
 		}
 		n++;
 	}
