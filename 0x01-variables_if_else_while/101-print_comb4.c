@@ -13,20 +13,17 @@ int main(void)
 
 	for (thou = '0'; thou <= '7'; thou++)
 	{
-		for (tens = '1'; tens <= '8'; tens++)
+		for (tens = (thou + 1); tens <= '8'; tens++)
 		{
-			for (unit = '2'; unit <= '9'; unit++)
+			for (unit = (tens + 1); unit <= '9'; unit++)
 			{
-				if (!(unit >> thou && unit >> tens))
+				putchar(thou);
+			       	putchar(tens);
+				putchar(unit);
+				if (!((thou == '7' && tens == '8') && unit == '9'))
 				{
-					putchar(thou);
-					putchar(tens);
-					putchar(unit);
-					if (!((thou == '7' && tens == '8') && unit == '9'))
-					{
-						putchar(',');
-						putchar(' ');
-					}
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
