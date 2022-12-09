@@ -2,7 +2,7 @@
 
 /**
  * main - print all sing digit number of base 10 from 0
- * return: Always 0
+ * return: Always 0 (Success)
  */
 
 int main(void)
