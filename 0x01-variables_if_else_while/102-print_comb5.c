@@ -20,18 +20,15 @@ int main(void)
 			{
 				for (u = '0'; u <= '9'; u++)
 				{
-					if (!(tens == '0' && unit == '0' && t == '0' && u == '0'))
+					putchar(tens);
+					putchar(unit);
+					putchar(' ');
+					putchar(t);
+					putchar(u);
+					if (!(tens == '9' && unit == '8' && t == '9' && u == '9'))
 					{
-						putchar(tens);
-						putchar(unit);
+						putchar(',');
 						putchar(' ');
-						putchar(t);
-						putchar(u);
-						if (!(tens == '9' && unit == '8' && t == '9' && u == '9'))
-						{
-							putchar(',');
-							putchar(' ');
-						}
 					}
 				}
 			}
