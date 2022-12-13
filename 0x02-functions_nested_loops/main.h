@@ -28,5 +28,11 @@ void print_alphabet_x10(void);
 
 int _islower(int c);
 
+/**
+ * _isalpha - checks for alphabet character
+ */
+
+int _isalpha(int c);
+
 
 #endif
