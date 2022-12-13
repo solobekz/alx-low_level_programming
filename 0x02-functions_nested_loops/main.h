@@ -34,5 +34,11 @@ int _islower(int c);
 
 int _isalpha(int c);
 
+/**
+ * print_sign - prints the sign of numbers
+ */
+
+int print_sign(int n);
+
 
 #endif
