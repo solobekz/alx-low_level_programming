@@ -52,5 +52,11 @@ int _abs(int);
 
 int print_last_digit(int);
 
+/**
+ * jack_bauer - prints 00:00 to 23:59 timer
+ */
+
+void jack_bauer(void);
+
 
 #endif
