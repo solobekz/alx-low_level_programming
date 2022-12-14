@@ -14,9 +14,9 @@ void print_times_table(int n)
 	
 	if (!(n < 0 || n > 15))
 	{
-		for (row = 0; row <= 'n'; row++)
+		for (row = 0; row <= n; row++)
 		{
-			for (col = 0; col <= 'n'; col++)
+			for (col = 0; col <= n; col++)
 			{
 				pro = row * col;
 				if (col == 0)
