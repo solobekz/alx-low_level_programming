@@ -13,12 +13,12 @@ int main(void)
 
 	while ((a <= 4000000) || (b <= 4000000))
 	{
-		a += b;
-		b += a;
 		if (a % 2 == 0)
 			sum += a;
 		if (b % 2 == 0)
 			sum += b;
+		a += b;
+		b += a;
 	}
 	printf("%li\n", sum);
 
