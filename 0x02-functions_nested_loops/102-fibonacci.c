@@ -23,6 +23,7 @@ int main(void)
 			printf("%li, %li, ", a, b);
 			a += b;
 			b += a;
+		}
 	}
 	printf("\n");
 
