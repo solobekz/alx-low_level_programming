@@ -15,7 +15,7 @@ int main(void)
 
 	printf("1");
 
-	for (c = 2; c <= 98; c++)
+	for (c = 2; c <= 93; c++)
 	{
 		sum = a + b;
 		a = b;
@@ -28,7 +28,7 @@ int main(void)
 	b_head = b / 1000000000;
 	b_tail = b % 1000000000;
 
-	for (; c < 93; c++)
+	for (; c < 98; c++)
 	{
 		overflow = (a_tail + b_tail) / 1000000000;
 		sum_tail = (a_tail + b_tail) - (1000000000 * overflow);
