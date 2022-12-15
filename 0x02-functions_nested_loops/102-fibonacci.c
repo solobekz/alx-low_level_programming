@@ -9,8 +9,8 @@ int main(void)
 {
 	int count;
 	int counto = 50;
-	int a = 1;
-	int b = 2;
+	long int a = 1;
+	long int b = 2;
 
 	for (count = 1; count <= (counto / 2); count++)
 	{
