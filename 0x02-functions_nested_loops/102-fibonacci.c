@@ -14,9 +14,15 @@ int main(void)
 
 	for (count = 1; count <= (counto / 2); count++)
 	{
-		printf("%li, %li, ", a, b);
-		a += b;
-		b += a;
+		if (count == 25)
+		{
+			printf("%li, %li", a, b);
+		}
+		else
+		{
+			printf("%li, %li, ", a, b);
+			a += b;
+			b += a;
 	}
 	printf("\n");
 
