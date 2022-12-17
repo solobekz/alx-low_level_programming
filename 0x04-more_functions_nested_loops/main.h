@@ -16,5 +16,12 @@ int _putchar(char c);
 
 int _isupper(int c);
 
+/**
+ * _isdigit - checks if a char is digit
+ * @c: char to check for
+ * Return: 1 if true, 0 if false
+ */
+
+ int _isdigit(int c);
 
 #endif
