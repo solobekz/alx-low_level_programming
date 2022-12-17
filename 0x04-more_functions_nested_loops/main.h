@@ -33,5 +33,12 @@ int _isupper(int c);
 
  int mul(int a, int b);
 
+ /**
+  * print_numbers - prints 0-9 and newline
+  * Return: void
+  */
+
+ void print_numbers(void);
+
 
 #endif
