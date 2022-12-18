@@ -55,4 +55,13 @@ void print_most_numbers(void);
 
 void more_numbers(void);
 
+/**
+ * print_line - prints line
+ * @n: char to print
+ * Return: void
+ */
+
+void print_line(int n);
+
+
 #endif
