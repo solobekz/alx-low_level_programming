@@ -71,5 +71,12 @@ void print_line(int n);
 
 void print_diagonal(int n);
 
+/**
+ * print_square - prints square with #
+ * @size: size of the square
+ * Return: void
+ */
+
+void print_square(int size);
 
 #endif
