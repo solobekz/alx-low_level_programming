@@ -20,8 +20,6 @@ int main(void)
 			printf("Fizz ");
 		else
 			printf("%d ", n);
-		if (n == 100)
-			printf("Buzz");
 		n++;
 	}
 	printf("\n");
