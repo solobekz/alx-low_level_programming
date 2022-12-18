@@ -24,7 +24,7 @@ int main(void)
 			d++;
 		}
 	}
-	printf("%lu", n);
+	printf("%lu\n", n);
 
 	return (0);
 }
