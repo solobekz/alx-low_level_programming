@@ -63,5 +63,13 @@ void more_numbers(void);
 
 void print_line(int n);
 
+/**
+ * print_diagonal - prints diagonal line
+ * @n: number of times to print the char
+ * Return: void
+ */
+
+void print_diagonal(int n);
+
 
 #endif
