@@ -21,7 +21,12 @@ void print_triangle(int size)
 				_putchar(' ');
 				i++;
 			}
-			_putchar('#');
+			i = 1;
+			while (i <= c)
+			{
+				_putchar('#');
+				i++;
+			}
 			_putchar('\n');
 		}
 	}
