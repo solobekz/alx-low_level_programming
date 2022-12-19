@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - changes a var value to 98
- * @*n: pointer holding the var address
+ * @n: pointer holding the var address
  * Return: 98
  */
 

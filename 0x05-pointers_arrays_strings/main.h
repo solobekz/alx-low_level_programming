@@ -7,11 +7,11 @@
  * Return: 0
  */
 
-void _putchar(char c);
+int _putchar(char c);
 
 /**
  * reset_to_98 - changes a var value to 98
- * @*n: a pinter to the address of the variable
+ * @n: a pointer to the address of the variable
  * Return: void
  */
 
