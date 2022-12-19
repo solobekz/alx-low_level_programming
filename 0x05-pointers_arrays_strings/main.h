@@ -17,5 +17,14 @@ int _putchar(char c);
 
 void reset_to_98(int *n);
 
+/**
+ * swap_int - swaps the values of 2 variables
+ * @a: first int
+ * @b: second int
+ * Return: void
+ */
+
+void swap_int(int *a, int *b);
+
 
 #endif
