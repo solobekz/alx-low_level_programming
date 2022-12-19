@@ -1,8 +1,15 @@
 #include "main.h"
 
+/**
+ * _strlen - string lenlength
+ * @str: string
+ * Return: result
+ */
+
 int _strlen(char *str)
 {
 	int len = 0;
+
 	while (*str != '\0')
 	{
 		len++;
