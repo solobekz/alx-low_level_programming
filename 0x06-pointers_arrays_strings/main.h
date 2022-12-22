@@ -28,5 +28,14 @@ int _strlen(char *s);
 
 char *_strncat(char *dest, char *src, int n);
 
+/**
+ * _strncpy - copies strings
+ * @dest: destinatn
+ * @src: source
+ * @n: no of bytes
+ */
+
+char *_strncpy(char *dest, char *src, int n);
+
 
 #endif
