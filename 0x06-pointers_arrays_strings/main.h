@@ -33,6 +33,7 @@ char *_strncat(char *dest, char *src, int n);
  * @dest: destinatn
  * @src: source
  * @n: no of bytes
+ * Return: dest
  */
 
 char *_strncpy(char *dest, char *src, int n);
