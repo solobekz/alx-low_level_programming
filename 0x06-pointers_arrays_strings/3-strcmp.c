@@ -28,5 +28,8 @@ int _strcmp(char *s1, char *s2)
 			k++;
 		}
 	}
+	if (k == j && s1[k] != '\0')
+		return (15);
+
 	return (0);
 }
