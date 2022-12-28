@@ -38,5 +38,15 @@ char *_strncat(char *dest, char *src, int n);
 
 char *_strncpy(char *dest, char *src, int n);
 
+/**
+ * _strcmp - compares strings
+ * @s1: string1
+ * @s2: string2
+ * Return: less than 0, 0, greater than 0
+ */
+
+int _strcmp(char *s1, char *s2);
+
+
 
 #endif
