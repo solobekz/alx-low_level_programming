@@ -1,5 +1,5 @@
 #include "main.h"
-#include "_strlen"
+#include "_strlen.c"
 
 /**
  * _strcmp - compares 2 strings
