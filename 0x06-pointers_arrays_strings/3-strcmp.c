@@ -10,7 +10,6 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int i = _strlen(s1);
 	int j = _strlen(s2);
 	int k = 0;
 
@@ -29,6 +28,5 @@ int _strcmp(char *s1, char *s2)
 			k++;
 		}
 	}
-	if (k == j)
-		return (0);
+	return (0);
 }
