@@ -48,6 +48,15 @@ unsigned int _strspn(char *s, char *accept);
 
 char *_strpbrk(char *s, char *accept);
 
+/**
+ * _strstr - locates a substring
+ * @haystack: string searched
+ * @needle: string to locate
+ * Return: pointer to 1st occurence or null
+ */
+
+char *_strstr(char *haystack, char *needle);
+
 
 
 #endif
