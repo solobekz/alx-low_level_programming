@@ -57,6 +57,22 @@ char *_strpbrk(char *s, char *accept);
 
 char *_strstr(char *haystack, char *needle);
 
+/**
+ * _putchar - prints character
+ * @c: char to put to standard output
+ * Return: 0
+ */
+
+int _putchar(char c);
+
+/**
+ * print_chessboard - prints chessboard
+ * @a: 2nd array
+ * Return: void
+ */
+
+void print_chessboard(char (*a)[8]);
+
 
 
 #endif
