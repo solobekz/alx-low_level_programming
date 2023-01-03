@@ -10,16 +10,19 @@
 
 void print_diagsums(int *a, int size)
 {
-	int i, s1, s2;
+	int row, i, s1, s2;
 
 	s1 = 0;
 	s1 = 0;
-	for (i = 0; i < (size * size); i++)
+	for (row = 0; row < size; row++)
 	{
-		if (i % (size + 1) == 0)
-			s1 += a[i];
-		if (i % (size - 1) == 0 && i != 0 && i < size * size - 1)
-			s2 += a[i];
+		i = (row * size) + row;
+		s1 += a[i];
+	}
+	for (row = 1; row <= size; row++)
+	{
+		i = (row * size) - row;
+		s2 += a[i];
 	}
 	printf("%d, %d\n", s1, s2);
 }
