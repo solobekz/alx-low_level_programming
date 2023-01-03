@@ -73,6 +73,15 @@ int _putchar(char c);
 
 void print_chessboard(char (*a)[8]);
 
+/**
+ * print_diagsums - prints diagonals sum
+ * @a: array of matrice
+ * @size: size of matrice
+ * Return: void
+ */
+
+void print_diagsums(int *a, int size);
+
 
 
 #endif
