@@ -50,6 +50,23 @@ int factorial(int n);
 
 int _pow_recursion(int x, int y);
 
+/**
+ * power_op - finds squareroot
+ * @n: integer
+ * @c: probable roots
+ * Return: result
+ */
+
+int power_op(int n, int c);
+
+/**
+ * _sqrt_recursion - finds squareroot
+ * @n: integer
+ * Return: result
+ */
+
+int _sqrt_recursion(int n);
+
 
 
 
