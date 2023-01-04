@@ -67,6 +67,23 @@ int power_op(int n, int c);
 
 int _sqrt_recursion(int n);
 
+/**
+ * is_prime - checks for prime number
+ * @n: int
+ * @c: iterator
+ * Return: 0 or 1
+ */
+
+int is_prime(unsigned int n, unsigned int c);
+
+/**
+ * is_prime_number - checks for prime numbers
+ * @n: int
+ * Return: 0 or 1
+ */
+
+int is_prime_number(int n);
+
 
 
 
