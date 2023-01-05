@@ -84,6 +84,24 @@ int is_prime(unsigned int n, unsigned int c);
 
 int is_prime_number(int n);
 
+/**
+ * check_palindrome - check if string is palindrome
+ * @s: string
+ * @b: first identifier
+ * @e: last identifier
+ * Return: 0 or 1
+ */
+
+int check_palindrome(char *s, int b, int e);
+
+/**
+ * is_palindrome - same as above function
+ * @s: string
+ * Return: 0 or 1
+ */
+
+int is_palindrome(char *s);
+
 
 
 
