@@ -12,7 +12,7 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	int i;
-	int j = 2-strlen(dest);
+	int j = _strlen(dest);
 
 	if (n > 0)
 	{
