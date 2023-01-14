@@ -1,3 +1,5 @@
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -26,7 +28,7 @@ int error_exit(void)
 {
 	char *err;
 	int i;
-	
+
 	err = "Error";
 	for (i = 0; err[i] != '\0'; i++)
 		_putchar(err[i]);
@@ -60,8 +62,10 @@ int check_number(char *str)
 int _length(char *str)
 {
 	int i = 0;
-	
+
 	while (str[i] != '\0')
 		i++;
 	return (i);
 }
+
+#endif
